@@ -1,1 +1,7 @@
-
+print("Write the 1st column hardness")
+a=int(input())
+print("Write the 2nd column hardness")
+b=int(input())
+print("Write the 3rd column hardness")
+c=int(input())
+print(max(min(a,b),min(a,c),min(b,c)))
